@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing:border-box; */
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+ border: 2px solid black;
+ /* padding: 40px; */
+ width: 100%;
+ box-shadow: 2px 1px 1px 1px rgb(182, 181, 181);
+}
+.input{
+margin-top: 7px;
+width: 243px;
+display: flex;
+padding: 10px;
+border: 2px solid green;
+box-shadow: 2px green;
+}
+.row1{
+    display: flex;
+    background-color: rgb(239, 242, 242);
+    padding: 5px;
+    justify-content: center;
+}
+.nums{
+    background-color: rgb(168, 166, 163);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width:30px;
+   text-align: center;
+   
+}
+.nums:hover{
+    background-color: rgb(126, 128, 128);
+}
